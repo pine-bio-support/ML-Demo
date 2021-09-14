@@ -1,6 +1,6 @@
 #!/usr/bin/perl -w
-#system "perl ~/progs/time.pl";
-if($ARGV[0] eq ""){print "\nUsage:   perl hashmatch.pl test1 test2 colnum1 colnum2\n\n";}
+#system "perl row_match.pl";
+if($ARGV[0] eq ""){print "\nUsage:   perl row_match.pl test1 test2 colnum1 colnum2\n\n";}
 $i=$ARGV[2] - 1;$j=$ARGV[3] - 1; chomp $i;chomp $j;
 open(FH,"$ARGV[1]");
 while($line=<FH>){
@@ -17,4 +17,4 @@ while($line1=<FH1>){
 		}			
 	}	   
 }
-#system "perl ~/progs/time.pl";
+
