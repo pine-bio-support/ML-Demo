@@ -1,0 +1,2 @@
+/export-data/sciservice/t40/SRR6049388_1.fq
+/export-data/sciservice/t40/SRR6049388_2.fq
